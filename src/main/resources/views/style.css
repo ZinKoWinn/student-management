@@ -1,0 +1,84 @@
+* {
+    primary: #262626;
+    primary-content: #ffffff;
+    accent: #3D9BE8;
+    subwrap: #2196f3;
+    background: #ffffff;
+    secondary: #80e27e;
+    background-content: #000000;
+    amber: #ffc400;
+    silver: #C6C6C6;
+}
+
+.title {
+    -fx-background-color: #4267B2;
+}
+
+.title > Label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.side-bar {
+    -fx-padding: 20.0 10.0 0.0 0.0;
+    -fx-pref-width: 120px;
+    -fx-spacing: 5px;
+    -fx-alignment: top-center;
+}
+
+.side-bar > Button {
+    -fx-background-color: transparent;
+    -fx-text-fill: accent;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+
+}
+
+.side-bar > Button:hover {
+    -fx-background-color: secondary;
+}
+
+.edit-title-wrap {
+    -fx-alignment: center;
+    -fx-background-color: #4267B2;
+}
+
+.edit-title-wrap > Label {
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.edit-view-item-wrap {
+    -fx-alignment: center-left;
+}
+
+.edit-view-btn-wrap {
+    -fx-alignment: center-right;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+}
+
+
+.text-field {
+    -fx-pref-width: 200px;
+    -fx-background-color: white;
+    -fx-border-color: #4267B2;
+    -fx-border-width: 1px;
+    -fx-prompt-text-fill: primary;
+}
+
+.btn {
+    -fx-pref-width: 80px;
+    -fx-background-color: primary;
+    -fx-text-fill: white;
+}
+
+.combobox{
+    -fx-background-color: white;
+    -fx-border-color: #4267B2;
+    -fx-border-width: 1px;
+    -fx-prompt-text-fill: primary;
+    -fx-padding: 10px;
+}

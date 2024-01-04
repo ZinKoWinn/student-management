@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zinko.studentmanagement.controller.MainController">
+    <center>
+        <StackPane fx:id="viewHolder" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </center>
+    <left>
+        <ScrollPane fx:id="nav" BorderPane.alignment="CENTER">
+            <content>
+                <VBox fx:id="VView" styleClass="side-bar" stylesheets="@style.css" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Button contentDisplay="TOP" text="Course">
+                        </Button>
+                        <Button contentDisplay="TOP" mnemonicParsing="false" text="Student">
+                        </Button>
+                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Course Enrollment">
+                        </Button>
+                        <Button contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Assign Grade">
+                        </Button>
+                    </children>
+                </VBox>
+            </content>
+        </ScrollPane>
+    </left>
+</BorderPane>
